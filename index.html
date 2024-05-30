@@ -1,1 +1,125 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gameplay - Assassin's Creed Origins</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover,
+        nav a.active {
+            background-color: #555;
+        }
+
+        nav a i {
+            margin-right: 5px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .gameplay-info {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .gameplay-name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .gameplay-description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .home-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .home-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-map-marker-alt"></i> Home</a></li>
+                <li><a href="setting.html"><i class="fas fa-user"></i> Setting</a></li>
+                <li><a href="mainChar.html"><i class="fas fa-gamepad"></i> Main Character</a></li>
+                <li><a href="gameplay.html"><i class="fas fa-home"></i> Gameplay</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="gameplay-info">
+            <h1>About Assassin's Creed Origins</h1>
+        
+            <h2>Setting</h2>
+            <p>Assassin's Creed Origins is set in ancient Egypt during the Ptolemaic period. Players will explore a vast open 
+                world that includes cities, deserts, and the Nile River.</p>
+            
+            <h2>Main Character(s)</h2>
+            <p>The main character in Assassin's Creed Origins is Bayek, a Medjay warrior who seeks revenge against those who 
+                harmed his family. Players will also encounter other important characters throughout the game.</p>
+            
+            <h2>Gameplay</h2>
+            <p>Assassin's Creed Origins features a blend of stealth, combat, and exploration. Players can engage in intense 
+                combat using a variety of weapons and abilities. The game also introduces a new leveling system and RPG elements, 
+                allowing players to customize their character's skills and equipment.</p>
+
+            <div class="home-image">
+                <img src="gamePic.avif" alt="Assassin's Creed Origins">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
